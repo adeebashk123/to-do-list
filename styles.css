@@ -1,0 +1,66 @@
+body {
+    background-color: #ffcccb; /* Light pink background */
+    color: #333; /* Darker text color for better contrast */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* White background for the container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #d5006d; /* Dark pink for the heading */
+}
+
+input[type="text"], input[type="datetime-local"] {
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+    border: 1px solid #d5006d; /* Dark pink border */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #d5006d; /* Dark pink background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b0004d; /* Darker pink on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
